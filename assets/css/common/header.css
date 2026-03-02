@@ -1,0 +1,18 @@
+.header,
+.top-link {
+    font-size: 15px;
+    color: var(--secondary);
+}
+
+.header {
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
+    text-align: center;
+    line-height: 24px;
+}
+
+.footer span {
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}

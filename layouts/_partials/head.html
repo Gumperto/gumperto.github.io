@@ -1,0 +1,9 @@
+{{- /* Style */}}
+
+{{ $cssCommon := resources.Match "css/common/*.css" | resources.Concat "assets/css/common.css" }}
+
+{{ $cssCore := (slice $cssCommon) | resources.Concat "assets/css/core.css" }}
+
+{{ $stylesheet := (slice $cssCore) | resources.Concat "assets/css/stylesheet.css" }}
+
+<link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}">

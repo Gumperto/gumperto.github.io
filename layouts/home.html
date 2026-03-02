@@ -1,7 +1,8 @@
 {{ define "main" }}
-    <header><h1>{{ .Title }}</h1></header>
 	{{ .Content }}
+    <h2> Past posts </h2>
     {{ range .Site.RegularPages }}
-        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        <br>
     {{ end }}
 {{ end }}

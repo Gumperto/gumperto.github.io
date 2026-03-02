@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" charset="utf-8">
-<head>
+<head class="head">
     {{ partial "head.html" . }}
 </head>
 <body>
-    <!-- <header> -->
-    <!--     {{ partial "header.html" . }} -->
-    <!-- </header> -->
+    <header class="header">
+        {{ partial "header.html" . }}
+    </header>
     
     <main>
         {{ block "main" . }}
         {{ end }}
     </main>
 
-    <footer>
+    <footer class="footer">
         {{ partial "footer.html" . }}
     </footer>
 </body>
