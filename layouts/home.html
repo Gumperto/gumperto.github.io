@@ -1,5 +1,7 @@
 {{ define "main" }}
     <header><h1>{{ .Title }}</h1></header>
 	{{ .Content }}
-  <p>This line is from <code>layouts/home.html</code>.</p>
+    {{ range .Site.RegularPages }}
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ end }}
 {{ end }}
