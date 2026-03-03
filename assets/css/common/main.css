@@ -6,12 +6,12 @@
     padding: var(--gap);
 }
 
-.page-header h1 {
-    font-size: 40px;
-}
-
 .center {
     text-align:center;
+}
+
+.page-header h1 {
+    font-size: 40px;
 }
 
 .pagination {
