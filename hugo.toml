@@ -2,6 +2,9 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'gumperto.github.io'
 
+[markup.goldmark.parser.attribute]
+block = true
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

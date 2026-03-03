@@ -1,8 +1,8 @@
 +++
 date = '2026-03-02T15:23:16+09:00'
-title = 'About'
+title = 'About Me'
 type = 'miscellaneous'
-layout = 'about'
+layout = 'aboutme'
 +++
 
 I'm Gumperto.

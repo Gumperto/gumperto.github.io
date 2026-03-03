@@ -468,7 +468,7 @@ Springing up suddenly from the grass, wearing the same solemn expression that ha
 
 “Who knows? What if I can spot you in a Constellation somewhere?”
 
-Marisa chuckled at my words.
+You chuckled at my words.
 
 “Not that you’ll be able to. I’m gonna be a Blazing Star—sorry—you know it as a comet.”
 
@@ -520,7 +520,7 @@ Your eyes soften, as does your voice:
 
 “...”
 
-“If leaving us all behind is what you’re afraid of, don’t be. You’re the Star of the show, the brightest in all of Gensokyo. We’re rooting for you.
+“If leaving us all behind is what you’re afraid of, don’t be. You’re the Star of the show, the brightest in all of Gensokyo. We’re rooting for you.”
 
 “...”
 
@@ -714,9 +714,12 @@ And I smiled.
 And everything was alright, thusly.
 
 *“As if I'd forget!*
-
+{.center}
 *Here’s some Stardust, as something to remember me by*
-
+{.center}
 *Should be enough to cover my tab*
-
+{.center}
 *Thank you, and goodbye!”*
+{.center}
+
+---
