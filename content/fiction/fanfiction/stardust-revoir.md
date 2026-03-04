@@ -1,6 +1,7 @@
 +++
 date = '2026-03-02T19:40:20+09:00'
 title = 'Stardust Revoir'
+tags = ["fanfiction","touhou"]
 +++
 
 “102,900円”

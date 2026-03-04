@@ -1,5 +1,6 @@
 +++
 date = '2026-03-02T19:33:13+09:00'
+tags = ["original","scifi"]
 title = 'Grocery Store on the Fringes of Man'
 +++
 
