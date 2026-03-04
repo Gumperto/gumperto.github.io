@@ -1,4 +1,9 @@
 <h1><a href="{{ relURL "" }}">gumperto.github.io</a></h1>
 {{ partial "navbar" . }}
 <h1>{{ .Title }}</h1>
-{{ .Params.tags }}
+{{ with .GetTerms "tags" }}
+    Tags:
+    {{ range . }}
+        <a href="{{ .RelPermalink }}">| {{ .LinkTitle }} |</a>
+    {{ end }}
+{{ end }}
