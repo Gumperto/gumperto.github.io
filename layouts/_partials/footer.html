@@ -1,3 +1,16 @@
 {{ if not .IsHome }}
-    <a href="{{ relURL "" }}">Return to Homepage</a>
+    <a href="{{ relURL "" }}">| Return to Homepage |</a>
+{{ end }}
+
+<br>
+
+{{ with .PrevInSection }}
+    Previous
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+{{ end }}
+
+
+{{ with .NextInSection }}
+    Next
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
 {{ end }}
