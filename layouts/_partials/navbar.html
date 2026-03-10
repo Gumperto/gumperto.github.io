@@ -1,3 +1,6 @@
-{{ range .Site.Sections }}
-    <a href ="{{ .RelPermalink }}">| {{ .LinkTitle }} |</a>
-{{ end }}
+<ul class='navbar'>
+    <li><a style="margin-right:auto" href="{{ relURL "" }}">Home</a></li>
+    {{ range .Site.Sections }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+</ul>

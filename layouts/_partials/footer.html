@@ -4,13 +4,4 @@
 
 <br>
 
-{{ with .PrevInSection }}
-    Previous
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-{{ end }}
-
-
-{{ with .NextInSection }}
-    Next
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-{{ end }}
+{{ partial "next_prev_bar" . }}
