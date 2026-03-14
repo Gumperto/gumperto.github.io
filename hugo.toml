@@ -3,7 +3,10 @@ languageCode = 'en-us'
 title = 'gumperto.github.io'
 
 [markup.goldmark.parser.attribute]
-block = true
+    block = true
+
+[params]
+    mainSections = ["articles","process","fiction"]
 
 [caches]
   [caches.images]

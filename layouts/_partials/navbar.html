@@ -1,6 +1,8 @@
 <ul class='navbar'>
-    <li><a style="margin-right:auto" href="{{ relURL "" }}">Home</a></li>
-    {{ range .Site.Sections }}
+    <li><a href="{{ relURL "" }}">Home</a></li>
+    <li><a href="{{ relURL "about" }}">About</a></li>
+    {{ range where .Site.Sections "Section" "in" .Site.MainSections }}
         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
     {{ end }}
+    <li><a href="{{ relURL "contact" }}">Contact</a></li>
 </ul>

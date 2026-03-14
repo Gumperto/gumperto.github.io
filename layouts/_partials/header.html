@@ -11,4 +11,4 @@
 
 <!-- This will insert a comma *before* each item, except for the first,  -->
 <!-- creating the illusion of a comma separator -->
-{{ range $k, $v := .GetTerms "tags" }}{{ if $k }}, {{ end }}<i class="tags"><a href="{{- .RelPermalink }}">{{- .LinkTitle }}</a></i>{{- end }}
+{{ range $k, $v := .GetTerms "tags" }}<i class="tags">{{ if $k }}, {{ end }}<a href="{{- .RelPermalink }}">{{- .LinkTitle }}</a></i>{{- end }}

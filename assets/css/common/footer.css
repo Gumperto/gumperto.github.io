@@ -12,23 +12,4 @@
     line-height: 24px;
 }
 
-.footer .nextprevbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.footer .nextprevbar li a {
-    display: block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.footer .nextprevbar a:hover {
-    background-color: black;
-    color: white;
-}
