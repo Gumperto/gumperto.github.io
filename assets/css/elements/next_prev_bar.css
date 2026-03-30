@@ -1,18 +1,20 @@
-.nextprevbar {
+#nextprevbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
 }
 
-.nextprevbar li a {
+#nextprevbar a {
     display: block;
+    max-width: calc(var(--body-max-width) / 6);
+    border: 1px solid;
     color: black;
     padding: 1em 1em;
     text-decoration: none;
 }
 
-.nextprevbar a:hover {
+#nextprevbar a:hover {
     background-color: black;
     color: white;
 }

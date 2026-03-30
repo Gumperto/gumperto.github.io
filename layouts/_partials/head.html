@@ -1,9 +1,10 @@
 {{- /* Style */}}
 
+{{ $cssTop := resources.Match "css/top/*.css" | resources.Concat "assets/css/top.css" }}
 {{ $cssCommon := resources.Match "css/common/*.css" | resources.Concat "assets/css/common.css" }}
 {{ $cssElements := resources.Match "css/elements/*.css" | resources.Concat "assets/css/elements.css" }}
 
-{{ $cssCore := (slice $cssCommon $cssElements) | resources.Concat "assets/css/core.css" }}
+{{ $cssCore := (slice $cssTop $cssCommon $cssElements) | resources.Concat "assets/css/core.css" }}
 
 {{ $stylesheet := (slice $cssCore) | resources.Concat "assets/css/stylesheet.css" }}
 

@@ -1,45 +1,16 @@
-.header,
-.top-link {
-    font-size: 1rem;
-    color: var(--secondary);
-}
-
 .header {
-    max-width: calc(var(--main-width) + var(--gap) * 2);
-    margin: auto;
-    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
-    text-align: center;
-    line-height: 1.5rem;
-}
-
-.header h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 #navbar {
-    list-style-type: none;
     display: flex;
-    justify-content: center;
+    position: relative;
 }
 
 #navbar a {
     border: 1px solid;
     text-align: center;
     margin: 1px 0 1px 2px;
-}
-
-#navbar .navbar-links {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 auto;
-    flex-flow: row wrap;
-}
-
-@media screen and (width <= 450px) {
-    #navbar .navbar-links {
-        display: grid;
-        grid: auto-flow / 1fr 1fr 1fr;
-    }
 }
 
 #navbar .navbar-links a {
@@ -55,6 +26,24 @@
     color: white;
 }
 
+#navbar .navbar-links {
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: row wrap;
+}
+
+@media all and (max-width: 599px) {
+    #navbar .navbar-links {
+        display: grid;
+        grid: auto-flow / 1fr 1fr 1fr;
+    }
+    @media all and (max-width: 349px) {
+        #navbar .navbar-links {
+            grid: auto-flow / 1fr 1fr;
+        }
+    }
+}
+
 .tags {
-    font-size: 18px;
+    font-size: 1rem;
 }

@@ -8,7 +8,6 @@
 <h1>{{ .Title }}</h1>
 
 <!-- Tags -->
-
 <!-- This will insert a comma *before* each item, except for the first,  -->
 <!-- creating the illusion of a comma separator -->
 {{ range $k, $v := .GetTerms "tags" }}<i class="tags">{{ if $k }}, {{ end }}<a href="{{- .RelPermalink }}">{{- .LinkTitle }}</a></i>{{- end }}

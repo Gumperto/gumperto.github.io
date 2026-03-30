@@ -1,19 +1,19 @@
-<ul class="nextprevbar center">
-    <li>
-    {{ with .PrevInSection }}
-        <a href="{{ .RelPermalink }}">
-            Previous<br>
-            {{ .LinkTitle }}
-        </a>
-    {{ end }}
-    </li>
+<nav id="nextprevbar" class="center">
+    <div>
+        {{ with .PrevInSection }}
+            <a href="{{ .RelPermalink }}">
+                Previous<br>
+                <i>{{ .LinkTitle }}</i>
+            </a>
+        {{ end }}
+    </div>
 
-    <li>
-    {{ with .NextInSection }}
-        <a href="{{ .RelPermalink }}">
-            Next<br>
-            {{ .LinkTitle }}
-        </a>
-    {{ end }}
-    </li>
-</ul>
+    <div>
+        {{ with .NextInSection }}
+            <a href="{{ .RelPermalink }}">
+                Next<br>
+                <i>{{ .LinkTitle }}</i>
+            </a>
+        {{ end }}
+    </div>
+</nav>

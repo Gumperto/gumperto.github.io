@@ -6,7 +6,10 @@ layout = 'contact'
 +++
 
 Personal Email: khiemhoang2005@gmail.com
-
-Academic Email: khiem-gump-hoang@toki.waseda.jp
-
-GitHub: https://github.com/Gumperto
+{.center}
+Institution Email: khiem-gump-hoang@toki.waseda.jp
+{.center}
+[GitHub](https://github.com/Gumperto)
+{.center}
+[LinkedIn](https://www.linkedin.com/in/khiem-hoang-0ba9402b9/)
+{.center}

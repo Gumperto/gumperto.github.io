@@ -1,0 +1,37 @@
+/*******/
+/* TOP */
+/*******/
+
+:root {
+    --body-max-width: 935px;
+    --body-side-padding: 20px;
+}
+@media all and (max-width: 649px) {
+    :root {
+        --body-text-font-size: 18px;
+        --body-side-padding: 16px;
+    }
+}
+
+
+/**********/
+/* LAYOUT */
+/**********/
+
+html {
+    font-size: 1em;
+}
+
+main {
+    position: relative;
+    box-sizing: border-box;
+    max-width: var(--body-max-width);
+    margin: 0 auto;
+    padding: 1rem var(--body-side-padding) 1.25rem var(--body-side-padding);
+    display: flex;
+    flex-flow: column;
+}
+
+.center {
+    text-align: center;
+}

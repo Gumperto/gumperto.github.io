@@ -11,7 +11,8 @@ about the website [gumperto.github.io](/).
 ## Work
 I am a Vietnamese international undergraduate student based in Tokyo, Japan, currently admitted as a student at Waseda University's School of Fundamental Science and Engineering 
 under their English program in [Computer Science and Communications Engineering](https://www.fse.sci.waseda.ac.jp/dept/csce/). I can somewhat comfortably support myself
-in Tokyo thanks to a [generous private scholarship program](https://www.fastretailing-foundation.or.jp/eng/scholarships/) which covers my tuition, a quarterly stipend, with my own financial conscientiousness.
+in Tokyo thanks to a [generous private scholarship program](https://www.fastretailing-foundation.or.jp/eng/scholarships/) which covers my tuition and gives me a quarterly stipend.
+My own financial conscientiousness goes the rest of the way.
 
 I have co-authored a [paper about probing evaluation awareness in LLMS](https://openreview.net/forum?id=lerUefpec2), which was
 cited in [Bengio et. al's International AI Safety Report 2026](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026).
