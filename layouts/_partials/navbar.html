@@ -4,5 +4,5 @@
     {{ range where .Site.Sections "Section" "in" .Site.MainSections }}
         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
     {{ end }}
-    <li><a href="{{ relURL "contact" }}">Contact</a></li>
+    <li><a href="{{ relURL "links" }}">Links</a></li>
 </ul>
