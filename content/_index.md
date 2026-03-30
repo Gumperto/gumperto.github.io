@@ -8,7 +8,6 @@ Navigation is currently a massive pain in the ass and work in progress, but for 
 
 Most other features are the same. Expect the site to undergo massive changes as I work on it more.
 
-**Past posts**
-{.center}
+### Past posts
+
 {{< posthistory >}}
-{.center}
