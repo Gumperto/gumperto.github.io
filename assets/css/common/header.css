@@ -1,6 +1,6 @@
 .header,
 .top-link {
-    font-size: 15px;
+    font-size: 1rem;
     color: var(--secondary);
 }
 
@@ -9,25 +9,48 @@
     margin: auto;
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
-.header .navbar {
+.header h1 {
+    font-size: 1.5rem;
+}
+
+#navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.header .navbar li a {
-    display: block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
+#navbar a {
+    border: 1px solid;
+    text-align: center;
+    margin: 1px 0 1px 2px;
 }
 
-.header .navbar a:hover {
+#navbar .navbar-links {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+}
+
+@media screen and (width <= 450px) {
+    #navbar .navbar-links {
+        display: grid;
+        grid: auto-flow / 1fr 1fr 1fr;
+    }
+}
+
+#navbar .navbar-links a {
+    flex: 1 1 auto;
+    padding: 0.25em 0.75em;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#navbar .navbar-links a:hover {
     background-color: black;
     color: white;
 }

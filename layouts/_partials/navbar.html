@@ -1,8 +1,10 @@
-<ul class='navbar'>
-    <li><a href="{{ relURL "" }}">Home</a></li>
-    <li><a href="{{ relURL "about" }}">About</a></li>
-    {{ range where .Site.Sections "Section" "in" .Site.MainSections }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-    <li><a href="{{ relURL "links" }}">Links</a></li>
-</ul>
+<nav id="navbar">
+    <div class="navbar-links">
+        <a href="{{ relURL "" }}">Home</a>
+        <a href="{{ relURL "about" }}">About</a>
+        {{ range where .Site.Sections "Section" "in" .Site.MainSections }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+        <a href="{{ relURL "links" }}">Links</a>
+    </div>
+</nav>
