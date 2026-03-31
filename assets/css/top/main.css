@@ -7,7 +7,8 @@
     --body-side-padding: 20px;
     --body-text-font-size: 20px;
 }
-@media all and (max-width: 649px) {
+
+@media all and (max-width: 659px) {
     :root {
         --body-text-font-size: 18px;
         --body-side-padding: 16px;
@@ -17,6 +18,26 @@
             --body-text-font-size: 16px;
         }
     }
+}
+
+/*********/
+/* COLOR */
+/*********/
+:root {
+    /*  General */
+    --body-background-color: #000;
+    --body-text-color: #fff;
+
+    /*  Selection */
+    --text-selection-background-color: #dcdcdc;
+    --text-selection-color: #000;
+
+    /*  Code blocks */
+    --code-element-border-color: #c8c8c8;
+    --code-element-background-color: #fafafa;
+    --pre-element-border-color: #606060;
+    /* --pre-element-background-color: #1d1d1d; */
+    --pre-element-background-color: #FFFFFF;
 }
 
 
@@ -40,6 +61,4 @@ main {
     flex-flow: column;
 }
 
-.center {
-    text-align: center;
-}
+

@@ -2,6 +2,7 @@
 date = '2026-03-02T19:33:13+09:00'
 tags = ["original","scifi"]
 title = 'Grocery Store on the Fringes of Man'
+status = "completed"
 +++
 
 It is Monday, again. The clock ticks 25:00, again. My job is to open the cash register, count up the store assets, close the register, repeat until time reaches 4:00. Occasionally, a customer enters through the sliding glass, asks for some Eridanus brand, supervoid flavoured candy bar (which is not all that far from its previous void flavoured iteration, just super), or Europa brand, perpetually cold, refreshing can of vacuum-washed soda, and my job would then be to guide them to the right aisle. It is a menial job, but it pays my bills nonetheless.

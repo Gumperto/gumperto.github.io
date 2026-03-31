@@ -23,6 +23,8 @@ for [Hanoi AI Safety Network](https://ai-alignment-and-rationality.github.io/)  
 research fellow at [antoan.ai](https://www.antoan.ai/), 
 research fellow at [Shibaura Institute of Technology](https://www.shibaura-it.ac.jp/en/).
 
+If you need to reach out, my contact information can be found in the [Links page](/links).
+
 Unless specified otherwise, the views expressed in [gumperto.github.io](/) are my own.
 
 ## Personality

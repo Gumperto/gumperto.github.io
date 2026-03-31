@@ -2,6 +2,7 @@
 date = '2026-03-04T20:01:11+09:00'
 tags = ["meta"]
 title = 'Site Design'
+status = "in progress"
 +++
 
 As my first and probably last personal website, I find myself having to keep a lot in my head designing the site at any given time. I always did find the recursive nature of using software to aid the creation of itself something aesthetically fun, so I thought I might include some design principles for this website for future reference.

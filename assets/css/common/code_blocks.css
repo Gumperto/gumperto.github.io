@@ -1,0 +1,27 @@
+code {
+    --background-color: var(--code-element-background-color);
+    border: 1px solid var(--code-element-border-color);
+    background-color: var(--background-color);
+    padding: 0 4px;
+    font-feature-settings: 'ss02', 'ss03';
+    font-size: 0.9em;
+    word-break: break-word;
+}
+
+pre {
+    --background-color: var(--pre-element-background-color);
+    overflow: auto;
+    margin: 0;
+    border: 1px solid var(--pre-element-border-color);
+    background-color: var(--background-color);
+    cursor: text;
+    max-height: calc(100vh - 8rem);
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 0.4rem 0.7rem;
+    border: none;
+    /*! background-color: transparent; */
+}

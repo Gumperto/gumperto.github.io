@@ -4,8 +4,12 @@ title = 'gumperto.github.io'
 
 [markup]
     [markup.goldmark]
-        [markup.goldmark.parser.attribute]
-            block = true
+        [markup.goldmark.parser]
+            [markup.goldmark.parser.attribute]
+                block = true
+        [markup.goldmark.extenstions]
+            [markup.goldmark.extensions.typographer]
+                disable = true
 
 [params]
     mainSections = ["articles","process","fiction"]
@@ -13,3 +17,5 @@ title = 'gumperto.github.io'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+enableGitInfo = true

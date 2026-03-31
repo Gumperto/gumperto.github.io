@@ -32,12 +32,12 @@
     flex-flow: row wrap;
 }
 
-@media all and (max-width: 599px) {
+@media all and (max-width: 699px) {
     #navbar .navbar-links {
         display: grid;
         grid: auto-flow / 1fr 1fr 1fr;
     }
-    @media all and (max-width: 349px) {
+    @media all and (max-width: 399px) {
         #navbar .navbar-links {
             grid: auto-flow / 1fr 1fr;
         }
