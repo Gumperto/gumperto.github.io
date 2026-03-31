@@ -5,9 +5,9 @@ type = 'miscellaneous'
 layout = 'contact'
 +++
 
-I accept personal inquiries at through [personal email](khiemhoang2005@gmail.com).
+I accept personal inquiries at my [personal email](mailto:khiemhoang2005@gmail.com).
 Any emails trying to reach me as a Waseda University student should be directed to
-my [institution's email](khiem-gump-hoang@toki.waseda.jp).
+my [institution's email](mailto:khiem-gump-hoang@toki.waseda.jp).
 
 My terrible code (including this site's) is hosted on [GitHub](https://github.com/Gumperto).
 
