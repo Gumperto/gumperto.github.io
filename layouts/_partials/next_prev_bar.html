@@ -2,8 +2,7 @@
     <div>
         {{ with .PrevInSection }}
             <a href="{{ .RelPermalink }}">
-                Previous<br>
-                <i>{{ .LinkTitle }}</i>
+                Previous
             </a>
         {{ end }}
     </div>
@@ -11,8 +10,7 @@
     <div>
         {{ with .NextInSection }}
             <a href="{{ .RelPermalink }}">
-                Next<br>
-                <i>{{ .LinkTitle }}</i>
+                Next
             </a>
         {{ end }}
     </div>

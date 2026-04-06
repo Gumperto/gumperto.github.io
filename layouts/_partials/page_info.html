@@ -1,0 +1,9 @@
+<div id="pageInfo">
+    <!-- Tags -->
+    <!-- This will insert a comma *before* each item, except for the first,  -->
+    <!-- creating the illusion of a comma separator -->
+    {{ range $k, $v := .GetTerms "tags" }}<i class="tags">{{ if $k }}, {{ end }}<a href="{{- .RelPermalink }}">{{- .LinkTitle }}</a></i>{{- end }}
+    <br>
+    {{ .Param "status" | strings.FirstUpper }}: {{ .PublishDate | time.Format ":date_medium" }} ~ {{ .Lastmod | time.Format ":date_medium" }}
+    <hr>
+</div>

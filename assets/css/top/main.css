@@ -32,6 +32,11 @@
     --text-selection-background-color: #dcdcdc;
     --text-selection-color: #000;
 
+    /* Links */
+    --body-link-color: #333;
+    --body-link-hover-color: #888;
+    --body-link-visited-color: #666;
+
     /*  Code blocks */
     --code-element-border-color: #c8c8c8;
     --code-element-background-color: #fafafa;
@@ -60,5 +65,3 @@ main {
     display: flex;
     flex-flow: column;
 }
-
-

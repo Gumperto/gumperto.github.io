@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'gumperto.github.io'
+enableGitInfo = true
 
 [markup]
     [markup.goldmark]
@@ -17,5 +18,3 @@ title = 'gumperto.github.io'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
-enableGitInfo = true

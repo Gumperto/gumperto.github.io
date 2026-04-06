@@ -1,0 +1,16 @@
+a {
+    text-decoration: underline dotted;
+    color: var(--body-link-color);
+}
+
+.markdownBody a:hover {
+    color: var(--body-link-hover-color);
+}
+
+.markdownBody a:visited {
+    color: var(--body-link-visited-color);
+}
+
+.markdownBody a:visited:hover {
+    color: var(--body-link-hover-color);
+}

@@ -1,9 +1,13 @@
 {{ define "main" }}
 <!-- This is for showing up taxonomies (tags, etc) -->
-  {{ .Content }}
-  <br>
-  {{ range .Pages }}
-    <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-  {{ end }}
-  <br>
+    <div id="markdownBody" class="markdownBody">
+        {{ .Content }}
+        <br>
+        <ul>
+        {{ range .Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+        </ul>
+        <br>
+    </div>
 {{ end }}

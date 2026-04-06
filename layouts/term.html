@@ -1,11 +1,15 @@
 {{ define "main" }}
 <!-- This is for tags etc -->
-  {{ .Content }}
-  This is a tag page which links to all past posts with the tag: {{ .LinkTitle }}
-  <br>
-  <h3>Past posts</h3>
-  {{ range .Pages }}
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-  {{ end }}
-  <br>
+<div id="markdownBody" class="markdownBody">
+    {{ .Content }}
+    This is a tag page which links to all past posts with the tag: {{ .LinkTitle }}
+    <br>
+    <h3>Past posts</h3>
+    <ul>
+    {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    </ul>
+    <br>
+</div>
 {{ end }}

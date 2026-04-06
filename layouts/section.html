@@ -1,8 +1,12 @@
 {{ define "main" }}
-  {{ .Content }}
-  <h3>Past posts</h3>
-  {{ range .Pages }}
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-  {{ end }}
-  <br>
+<div id="markdownBody" class="markdownBody">
+    {{ .Content }}
+    <h3>Past posts</h3>
+    <ul>
+    {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    </ul>
+    <br>
+</div>
 {{ end }}

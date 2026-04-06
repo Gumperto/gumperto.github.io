@@ -1,4 +1,5 @@
+<ul>
 {{ range .Site.RegularPages }}
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    <br>
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
 {{ end }}
+</ul>
