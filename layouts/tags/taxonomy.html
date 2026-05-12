@@ -1,0 +1,13 @@
+{{ define "main" }}
+<!-- This is for showing up all tags -->
+    <div id="markdownBody" class="markdownBody">
+        {{ .Content }}
+        <br>
+        <ul>
+        {{ range .Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+        </ul>
+        <br>
+    </div>
+{{ end }}

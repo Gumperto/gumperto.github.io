@@ -1,7 +1,9 @@
+# Each new config item should be under its own header;
+# if it's a root heading, should place it above everything else!
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
 title = 'gumperto.github.io'
 enableGitInfo = true
+defaultContentLanguage = 'en'
 
 [markup]
     [markup.goldmark]
@@ -12,9 +14,28 @@ enableGitInfo = true
             [markup.goldmark.extensions.typographer]
                 disable = true
 
+[taxonomies]
+    author = "authors"
+    tag = "tags"
+
 [params]
     mainSections = ["articles","process","fiction"]
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    label = 'English'
+    weight = 1
+    locale = 'en-us'
+  [languages.jp]
+    contentDir = 'content/jp'
+    label = '日本語'
+    weight = 2
+  [languages.vi]
+    contentDir = 'content/vi'
+    label = 'Tiếng Việt'
+    weight = 3

@@ -1,9 +1,13 @@
 <div id="pageInfo">
-    <!-- Tags -->
+    <!-- Authors -->
     <!-- This will insert a comma *before* each item, except for the first,  -->
     <!-- creating the illusion of a comma separator -->
-    {{ range $k, $v := .GetTerms "tags" }}<i class="tags">{{ if $k }}, {{ end }}<a href="{{- .RelPermalink }}">{{- .LinkTitle }}</a></i>{{- end }}
+    <span>Authors: 
+        {{ range $k, $v := .GetTerms "authors" }}<i id="authors" class="authors">{{ if $k }}, {{ end }}<a href="{{- .RelPermalink }}">{{- .LinkTitle }}</a></i>{{- end }}
+    </span>
     <br>
-    {{ .Param "status" | strings.FirstUpper }}: {{ .PublishDate | time.Format ":date_medium" }} ~ {{ .Lastmod | time.Format ":date_medium" }}
-    <hr>
+    <!-- Tags, similar trick to authors -->
+    <span>{{ range $k, $v := .GetTerms "tags" }}<i id="tags" class="tags">{{ if $k }}, {{ end }}<a href="{{- .RelPermalink }}">{{- .LinkTitle }}</a></i>{{- end }}</span>
+    <br>
+    <span>{{ .Param "status" | strings.FirstUpper }}: {{ .PublishDate | time.Format ":date_medium" }} ~ {{ .Lastmod | time.Format ":date_medium" }}</span>
 </div>

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<!-- This is for tags etc -->
+<div id="markdownBody" class="markdownBody">
+    {{ .Content }}
+    <br>
+    <h3>Past posts</h3>
+    <ul>
+    {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    </ul>
+    <br>
+</div>
+{{ end }}

@@ -6,6 +6,7 @@
     --body-max-width: 935px;
     --body-side-padding: 20px;
     --body-text-font-size: 20px;
+    --base-block-spacing: 0.25em;
 }
 
 @media all and (max-width: 659px) {
@@ -45,6 +46,11 @@
     --pre-element-background-color: #FFFFFF;
 }
 
+/**********/
+/* IMAGES */
+/**********/
+:root {
+}
 
 /**********/
 /* LAYOUT */
@@ -64,4 +70,42 @@ main {
     padding: 1rem var(--body-side-padding) 1.25rem var(--body-side-padding);
     display: flex;
     flex-flow: column;
+}
+
+.block {
+    margin-top: calc(var(--base-block-spacing) * var(--bsm));
+}
+
+/*****************/
+/* MAIN MARKDOWN */
+/*****************/
+
+#markdownBody {
+    position: relative;
+}
+
+.markdownBody {
+    overflow-wrap: break-word;
+    line-height: var(--line-height);
+}
+
+@media all and (max-width: 649px) {
+    .markdownBody {
+        --line-height: 1.45;
+    }
+}
+@media all and (max-width: 999px) {
+    .markdownBody {
+        --line-height: 1.50;
+    }
+}
+@media all and (max-width: 1199px) {
+    .markdownBody {
+        --line-height: 1.55;
+    }
+}
+@media all and (min-width: 1200px) {
+    .markdownBody {
+        --line-height: 1.60;
+    }
 }
